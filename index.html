@@ -1,0 +1,36 @@
+<!-- FEITO POR TIAGOINSAN -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="icon" href="./assets/discord.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Webhook TiaGoiNsaNy</title>
+</head>
+
+<body>
+    <div class="webhook">
+        <h1 class="title">WEBHOOK</h1>
+        <p class="content">Envie mensagens via Webhook no seu Servidor Discord</p>
+        <input type="url" class="input-text" id="valueURL" placeholder="Webhook URL"><br>
+        <input type="text" class="input-text" id="valueAvatar" placeholder="Webhook AvatarURL"><br>
+        <input type="text" class="input-text" id="valueUsername" placeholder="Webhook Username"><br>
+        <textarea class="input-text" id="valueMsg" rows="6" maxlength="2000" placeholder="Webhook Message"></textarea><br><br>
+        <input class="input-submit" type="submit" onclick="sendWebhook()" value="Enviar">
+        <p class="result-error" id="error" style="display: none;"><i class="fa fa-close"></i> Ocorreu um erro ao enviar o Webhook!</p>
+        <p class="result-sucess" id="sucess" style="display: none;"><i class="fa fa-check"></i> Webhook Enviado com Sucesso!</p>
+    </div>
+
+    <footer class="rodape">
+        <p>&copy; 2021 TiaGoiNsaNy. Todos os Direitos Reservadoros</p>
+    </footer>
+
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>
