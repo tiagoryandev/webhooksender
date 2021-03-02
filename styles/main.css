@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+.webhook {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 300px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.webhook .title {
+    font-family: "Montserrat";
+}
+
+.webhook .content {
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-family: "Montserrat";
+    font-size: 90%;
+}
+
+.webhook .input-text {
+    border-radius: 5px;
+    margin: 5px;
+    width: 90%;
+    max-width: 300px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(213, 213, 213);
+    box-shadow: 0px 0px 0px black;
+    outline: none;
+    transition: box-shadow 0.5s, background-color 0.5s;
+}
+
+.webhook .input-text:focus {
+    box-shadow: 0px 0px 5px black;
+    background-color: #fff;
+    transition: box-shadow 0.5s, background-color 0.5s;
+}
+
+.webhook .input-submit {
+    font-family: "Montserrat";
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgb(148, 124, 255);
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition-duration: 0.5s;
+}
+
+.webhook .input-submit:hover {
+    background-color: rgb(122, 102, 214);
+    transition-duration: 0.5s;
+}
+
+.webhook .input-submit:active {
+    background-color: rgb(214, 102, 102);
+    transition-duration: 0.5s;
+}
+
+.webhook .result-error, .webhook .result-sucess {
+    font-size: 10px;
+    font-family: "Montserrat";
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 1%;
+}
+
+.rodape p {
+    text-align: center;
+    color: #fff;
+    font-family: "Montserrat";
+}
